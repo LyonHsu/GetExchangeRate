@@ -2,6 +2,7 @@
 使用台灣銀行的網頁來獲取各國幣值轉換 by Lyon on Kotlin
 
 API:https://www.findrate.tw/converter/CNY/TWD/1/
+
     https://www.findrate.tw/converter/(從這個國家的幣值)/(到這個國家的幣值)/(轉換幣值數量)/
   
 AndroidManifest.xml
@@ -132,5 +133,13 @@ AndroidManifest.xml
          */
     }
         
+        ===============================================================
+我們可以藉由Log看到正規劃後的資料有5筆 我們要的在第三筆[2]，
+
+[1]#sPl: width="100%" class="s" border="0">  <tr >     <td width="47%" class="f36"  ><span style="float:right; ">1.00 USD </span>    <td width="6%" rowspan="2" class="f48"><center>=</center>    <td width="47%"  class="f36">29.5150 TWD&nbsp; </tr>  <tr>    <td  ><span style="float:right; ">美金(USD)</span>    
+[2]#sPl:台幣(TWD)  </tr>  <tr>    
+[3]#sPl:<span style="float:right; ">1 USD = 29.515 TWD</span>    
+[4]#sPl:&nbsp;    
+[5]#sPl:1 TWD = 0.0339 USD    </tr></
         
         
